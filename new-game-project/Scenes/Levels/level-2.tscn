@@ -1,7 +1,7 @@
 [gd_scene load_steps=12 format=4 uid="uid://h5ndalbedrj3"]
 
 [ext_resource type="Script" uid="uid://d2o62fs8njoas" path="res://Code/main.gd" id="1_rqojw"]
-[ext_resource type="PackedScene" uid="uid://xgpivjl6iwaa" path="res://Scenes/hud.tscn" id="2_00m8k"]
+[ext_resource type="PackedScene" path="res://Scenes/hud.tscn" id="2_00m8k"]
 [ext_resource type="PackedScene" uid="uid://cafvx2fc3j35h" path="res://Scenes/stage_tile_map.tscn" id="2_4lou3"]
 [ext_resource type="PackedScene" uid="uid://3ulyxrycujua" path="res://Scenes/player.tscn" id="3_st3y7"]
 [ext_resource type="PackedScene" uid="uid://ber431k58enqq" path="res://Scenes/death_box.tscn" id="4_st3y7"]
@@ -84,7 +84,7 @@ stream = ExtResource("10_fbit7")
 autoplay = true
 
 [connection signal="body_entered" from="stage_tile_map/ItemBox" to="stage_tile_map/ItemBox" method="_on_body_entered"]
-[connection signal="body_entered" from="stage_tile_map/@Area2D@22779" to="stage_tile_map/@Area2D@22779" method="_on_body_entered"]
-[connection signal="body_entered" from="stage_tile_map/@Area2D@22790" to="stage_tile_map/@Area2D@22790" method="_on_body_entered"]
+[connection signal="body_entered" from="stage_tile_map/@Area2D@27082" to="stage_tile_map/@Area2D@27082" method="_on_body_entered"]
+[connection signal="body_entered" from="stage_tile_map/@Area2D@27093" to="stage_tile_map/@Area2D@27093" method="_on_body_entered"]
 [connection signal="body_entered" from="stage_tile_map/Victory" to="stage_tile_map/Victory" method="_on_body_entered"]
-[connection signal="body_entered" from="stage_tile_map/@Area2D@22799" to="stage_tile_map/@Area2D@22799" method="_on_body_entered"]
+[connection signal="body_entered" from="stage_tile_map/@Area2D@27102" to="stage_tile_map/@Area2D@27102" method="_on_body_entered"]

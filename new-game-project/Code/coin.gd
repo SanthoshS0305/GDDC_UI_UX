@@ -16,6 +16,5 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 		$"../../CanvasLayer/HUD".updateScoreLabel()
 		print("Picked up coin!")
 
-
 func _on_timer_timeout() -> void:
 	queue_free()
