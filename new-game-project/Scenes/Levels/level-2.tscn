@@ -78,7 +78,7 @@ stream = ExtResource("10_fbit7")
 autoplay = true
 
 [connection signal="body_entered" from="stage_tile_map/ItemBox" to="stage_tile_map/ItemBox" method="_on_body_entered"]
-[connection signal="body_entered" from="stage_tile_map/@Area2D@22912" to="stage_tile_map/@Area2D@22912" method="_on_body_entered"]
-[connection signal="body_entered" from="stage_tile_map/@Area2D@22923" to="stage_tile_map/@Area2D@22923" method="_on_body_entered"]
+[connection signal="body_entered" from="stage_tile_map/@Area2D@25080" to="stage_tile_map/@Area2D@25080" method="_on_body_entered"]
+[connection signal="body_entered" from="stage_tile_map/@Area2D@25091" to="stage_tile_map/@Area2D@25091" method="_on_body_entered"]
 [connection signal="body_entered" from="stage_tile_map/Victory" to="stage_tile_map/Victory" method="_on_body_entered"]
-[connection signal="body_entered" from="stage_tile_map/@Area2D@22932" to="stage_tile_map/@Area2D@22932" method="_on_body_entered"]
+[connection signal="body_entered" from="stage_tile_map/@Area2D@25100" to="stage_tile_map/@Area2D@25100" method="_on_body_entered"]
